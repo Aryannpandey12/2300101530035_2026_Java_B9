@@ -1,0 +1,3 @@
+src ip = 10.1.12.247
+destination ip = 8.8.4.4
+local ip = 10.1.12.245
