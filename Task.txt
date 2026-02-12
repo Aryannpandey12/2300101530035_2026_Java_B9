@@ -1,0 +1,27 @@
+(12/02/2026)
+
+Objective:- Practising creating a repo,writing javascript,committing & pushing code to github
+
+Task_1:- Create a  Github repo
+    Repo_Name:- 2300101530035_2026_Java_B9
+    Add Description
+    Keep Pulic
+        Submission:- Github Repo Link
+
+Task_2:- Create a File Intro.js
+    Write introduction Program
+    Run using command:- Node Intro.js
+    commit message : Added Intro.js (Introduction Program)
+
+    
+# Creating a React Project
+1- terminal -> Run:
+    npm create vite@latest Project_name
+    Select:-
+        Framework-> React
+        Variant-> javascript + complier
+    Then:-
+        cd Project_name
+        npm install
+        npm run dev
+
