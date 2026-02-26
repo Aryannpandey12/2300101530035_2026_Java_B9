@@ -1,28 +1,65 @@
-(12/02/2026)
+Practice Log – 12/02/2026
+Objective:- Practising creating a GitHub repository, writing JavaScript, and committing & pushing code to GitHub.
 
-Objective:- Practising creating a repo,writing javascript,committing & pushing code to github
+Task 1 – Create a GitHub Repo
+Repo Name: 2300101530035_2026_Java_B9
+Add Description
+Keep Public
+Submission: GitHub Repo Link
 
-Task_1:- Create a  Github repo
-    Repo_Name:- 2300101530035_2026_Java_B9
-    Add Description
-    Keep Pulic
-        Submission:- Github Repo Link
+Task 2 – Create a File Intro.js
+Write an introduction program.
+Run using command: node Intro.js
 
-Task_2:- Create a File Intro.js
-    Write introduction Program
-    Run using command:- Node Intro.js
-    commit message : Added Intro.js (Introduction Program)
+Commit message:
+Added Intro.js (Introduction Program)
 
-    
 # Creating a React Project
-1- terminal -> Run:
-    npm create vite@latest Project_name
-    Select:-
-        Framework-> React
-        Variant-> javascript + complier
-    Then:-
-        cd Project_name
-        npm install
-        npm run dev
+Open terminal and run:
+npm create vite@latest Project_name
+Select:
+Framework: React
+Variant: JavaScript + Compiler
+Then run:
+cd Project_name
+npm install
+npm run dev
 
-(26-02-2026)
+# React Notes (26-02-2026)
+1️⃣ Component
+A component is a reusable part of the UI.
+Written with first letter capitalized.
+JSX components are enclosed in <> </> (or <div></div> for multiple tags).
+
+Example:
+function App() {
+  return (
+    <div>
+      <h1>Div is used if we have to wrap more than one tag</h1>
+      <h2>This div works like curly brackets in JS for grouping elements</h2>
+    </div>
+  );
+}
+
+2️⃣ Function
+
+A function is a block of code to perform a task.
+Written in lowercase letters.
+Enclosed in {add()} when used inside a component.
+
+Example – 
+
+Normal Function for Adding Two Numbers
+function add(a, b) {
+  return a + b;
+}
+Calling the Function Inside a Component
+function App() {
+  const result = add(5, 3); // calling the function
+  return (
+    <>
+      <h1>This is a simple sentence.</h1>
+      <h2>Addition Result: {result}</h2>
+    </>
+  );
+}
