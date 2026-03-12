@@ -66,4 +66,8 @@ function App() {
 
 
 12/03/2026
-1- Created the html file and inserted a image and button
+
+1. Created an HTML file and inserted an image and a button into it.
+2. Created a **Component** folder and added an `Assignment.jsx` file inside it, then imported this component into `App.jsx`.
+3. Imported the HTML file into `App.jsx` with the help of a component.
+
