@@ -71,3 +71,13 @@ function App() {
 2. Created a **Component** folder and added an `Assignment.jsx` file inside it, then imported this component into `App.jsx`.
 3. Imported the HTML file into `App.jsx` with the help of a component.
 
+19/03/2026
+1. JSX with curly braces 
+  a- User variale with JSX
+      const name="Aryan";
+      let x=20;
+      
+  b- Expression in JSX
+  c- Function with JSX
+**d- Parameter with Function
+  e- Condition with JSX
