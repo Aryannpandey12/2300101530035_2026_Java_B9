@@ -81,3 +81,27 @@ function App() {
   c- Function with JSX
 **d- Parameter with Function
   e- Condition with JSX
+
+02/04/2026
+1- Create a new project //Project-2
+2- 🔹 What is an Event?
+      An event is something that happens in a webpage.
+        👉 Examples:
+            Clicking a button
+            Typing in an input box
+            Moving the mouse
+3- 🔹 What is Event Handling?
+      Event handling means doing something when an event happens.
+      👉 In simple words:
+         “When something happens, how the app reacts”
+4- click -> camel case > function in curley bases> function should not have bracket while calling.
+5- Arrow Function 
+      An arrow function is a shorter way to write a function in JavaScript.
+        Syntax:
+          // Single parameter, implicit return
+              const greet = name => `Hello, ${name}!`;
+
+          // Calling the  function
+              console.log(greet("Aryan")); // Output: Hello, Aryan!
+  Use () around parameters if there are multiple or none.
+  Use backticks ` for template literals
