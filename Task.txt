@@ -120,3 +120,8 @@ useState = creates state
 setData = updates state
 React re-renders UI automatically after update
 ///const [data, setData] = useState(10000);
+
+Assignment:-1 
+Toggle Button(STATE BASICS)
+-> create a button that toggles between "on" and "off" when clicked .
+
