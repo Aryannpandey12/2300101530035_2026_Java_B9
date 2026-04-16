@@ -105,3 +105,18 @@ function App() {
               console.log(greet("Aryan")); // Output: Hello, Aryan!
   Use () around parameters if there are multiple or none.
   Use backticks ` for template literals
+
+16/04/2026
+State is a variable that stores data inside a component and can change over time.
+
+🔑 Key Features of State
+
+Mutable (changeable): State can be updated.
+Re-rendering: When state changes, the component automatically updates (re-renders).
+Managed inside the component: Each component controls its own state.
+Used with hooks: In functional components, state is handled using useState.
+
+useState = creates state
+setData = updates state
+React re-renders UI automatically after update
+///const [data, setData] = useState(10000);
